@@ -8,15 +8,10 @@
 pkgname=alterlinux-hook-osname
 pkgver=1.0.0
 pkgrel=1
+arch=(any)
+source=("os-release" "99_os_release_hook.hook")
 pkgdesc="alterlinux-hook-osname"
-prepare() {
-}
-
-build() {
-}
-
-check() {
-}
+md5sums=(SKIP SKIP)
 
 package() {
         mkdir -p "${pkgdir}/etc/pacman.d/hooks/"
