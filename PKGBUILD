@@ -8,7 +8,6 @@
 pkgname=alterlinux-hook-osname
 pkgver=1.0.0
 pkgrel=1
-epoch=
 pkgdesc="alterlinux-hook-osname"
 prepare() {
 }
