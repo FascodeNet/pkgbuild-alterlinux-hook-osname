@@ -1,0 +1,10 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = filesystem
+
+[Action]
+Description = update os-releaese
+When = PostTransaction
+Exec = cp -f /etc/alter-os-release /etc/os-release 
