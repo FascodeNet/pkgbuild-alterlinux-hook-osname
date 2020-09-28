@@ -1,0 +1,1 @@
+# pkgbuild-alterlinux-hook-osname
